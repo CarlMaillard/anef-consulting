@@ -1,3 +1,27 @@
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/Inter-Bold.woff') format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/Inter-Medium.woff') format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/Inter-SemiBold.woff') format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+
 :root {
   --slate-blue: #123768;
   --white: white;
@@ -258,7 +282,7 @@ p {
 }
 
 .colour-block-3 {
-  background-color: #fceceb;
+  background-color: #ebfcf0;
   border-radius: 12px;
   justify-content: center;
   align-items: center;
@@ -1007,6 +1031,28 @@ p {
   display: flex;
 }
 
+.colour-block-4 {
+  background-color: #fcebf3;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+
+.h2-light {
+  color: #213055;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Lato, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
   .section-hero {
     min-height: 813px;
@@ -1181,6 +1227,10 @@ p {
     height: auto;
   }
 
+  .feature-block {
+    min-height: auto;
+  }
+
   .sml-caption {
     margin-bottom: 8px;
     margin-right: 0;
@@ -1198,6 +1248,11 @@ p {
 
   .light-heading {
     font-size: 1.2rem;
+  }
+
+  .h2-light {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
   }
 }
 
@@ -1250,6 +1305,10 @@ p {
 
   .light-heading {
     font-size: 1.1rem;
+  }
+
+  .h2-light {
+    margin-bottom: 59px;
   }
 }
 
